@@ -33,7 +33,9 @@ Python 3.7.0
 [centos@cdp ~]$ conda create --name streamlit python=3.7
 [centos@cdp ~]$ conda activate streamlit
 (streamlit) [centos@cdp ~]$ pip3 install streamlit
+(streamlit) [centos@cdp ~]$ pip3 install impyla
 
+(streamlit) [centos@cdp src]$ kinit -kt /etc/security/keytabs/etl_user.keytab etl_user/$(hostname -f)@CLOUDERA.COM
 
 
 
