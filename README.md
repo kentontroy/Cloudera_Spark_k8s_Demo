@@ -11,7 +11,7 @@
 
 <img src="./kudu-architecture.png" alt="Kudu architecture"/><br>
 
-Tables uses partitions spread across Tablets. Each Tablet uses leader and follower nodes with replication <br>
+Tables use partitions spread across Tablets. Each Tablet has leader and follower nodes with replication <br>
 to ensure resiliency. Data stored in a columnar fashion enables sequential storage, vectorization and compression. <br>
 
 
