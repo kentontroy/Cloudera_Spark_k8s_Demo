@@ -1,4 +1,4 @@
-## Reasons to use Kudu <br>
+### Reasons to use Kudu <br>
 
 <img src="./parquet-kudu-hbase.png" alt="Simple pattern"/> <br>
 <ul>
