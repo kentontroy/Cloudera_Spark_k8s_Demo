@@ -35,8 +35,36 @@ Python 3.7.0
 (streamlit) [centos@cdp ~]$ pip3 install streamlit
 (streamlit) [centos@cdp ~]$ pip3 install impyla
 
+The image used in this Github repo was already enabled with Kerberos.
+See https://docs.cloudera.com/runtime/7.2.7/impala-start-stop/topics/impala-impyla.html
+if additional dependencies are needed. For this repo, only do
+
+(streamlit) [centos@cdp src]$ pip3 install impyla[kerberos]
+
 (streamlit) [centos@cdp src]$ kinit -kt /etc/security/keytabs/etl_user.keytab etl_user/$(hostname -f)@CLOUDERA.COM
 
+For testing connectivity to Impala with Kerberos enabled, consider
+creating a file, ImpalaTest.py, with contents similar to:
+------------------------------------------------------------------
+from impala.dbapi import connect
+from impala.util import as_pandas
 
+# Background reference
+# https://github.com/cloudera/impyla
+
+IMPALA_HOST = "cdp.cloudera.com"
+IMPALA_PORT = 21050
+IMPALA_USER = "etl_user"
+IMPALA_AUTH = "GSSAPI"
+KUDU_TABLE = "default.bpd_crime_data"
+
+conn = connect(host=IMPALA_HOST, port=IMPALA_PORT, user=IMPALA_USER, auth_mechanism=IMPALA_AUTH)
+cursor = conn.cursor()
+cursor.execute("SELECT * FROM {0} LIMIT 100".format(KUDU_TABLE))
+df = as_pandas(cursor)
+print(df)
+------------------------------------------------------------------
+
+(streamlit) [centos@cdp src]$ python3 ImpalaTest.py
 
 
