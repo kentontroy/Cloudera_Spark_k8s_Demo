@@ -1,0 +1,40 @@
+
+[centos@cdp ~]$ wget https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
+[centos@cdp ~]$ chmod +x ./Anaconda3-5.3.1-Linux-x86_64.sh
+
+Chose to install Anaconda in /home/centos/anaconda3
+
+The installer places the following in .bashrc
+
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/centos/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/home/centos/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/centos/anaconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/home/centos/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+
+[centos@cdp ~]$ source .bashrc
+
+[centos@cdp ~]$ which python3
+~/anaconda3/bin/python3
+
+[centos@cdp ~]$ python3 --version
+Python 3.7.0
+
+[centos@cdp ~]$ which pip3
+~/anaconda3/envs/streamlit/bin/pip3
+
+[centos@cdp ~]$ conda create --name streamlit python=3.7
+[centos@cdp ~]$ conda activate streamlit
+(streamlit) [centos@cdp ~]$ pip3 install streamlit
+
+
+
+
+
