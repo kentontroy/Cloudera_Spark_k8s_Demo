@@ -67,4 +67,10 @@ print(df)
 
 (streamlit) [centos@cdp src]$ python3 ImpalaTest.py
 
+Test streamlt, open the browser to port 8501
+(streamlit) [centos@cdp src]$ streamlit hello
+
+
+
+
 
