@@ -34,6 +34,9 @@ Python 3.7.0
 [centos@cdp ~]$ conda activate streamlit
 (streamlit) [centos@cdp ~]$ pip3 install streamlit
 (streamlit) [centos@cdp ~]$ pip3 install impyla
+(streamlit) [centos@cdp ~]$ conda upgrade pandas
+(streamlit) [centos@cdp ~]$ conda install pystan
+(streamlit) [centos@cdp ~]$ conda install fbprophet
 
 The image used in this Github repo was already enabled with Kerberos.
 See https://docs.cloudera.com/runtime/7.2.7/impala-start-stop/topics/impala-impyla.html
