@@ -1,6 +1,6 @@
-import pandas as pd
 import glob
 import os
+import pandas as pd
 
 # Schema from baseball-almanac.com
 # gameno,gamedate,opponent,outcome
