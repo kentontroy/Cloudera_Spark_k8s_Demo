@@ -16,7 +16,7 @@ to ensure resiliency. Storing data in a columnar fashion enables sequential layo
 
 ### DDLfor Kudu table <br>
 
-<br>
+```
 CREATE TABLE bpd_crime_data 
 ( 
   id STRING NOT NULL, 
@@ -51,6 +51,6 @@ TBLPROPERTIES (
 'kudu.num_tablet_replicas' = '1'
 )
 ;
-</br>
+```
 
 
