@@ -1,0 +1,163 @@
+gameno,gamedate,opponent,outcome
+1,3/31/2014,vs Boston Red Sox,W
+2,4/2/2014,vs Boston Red Sox,L
+3,4/3/2014,vs Boston Red Sox,L
+4,4/4/2014,at Detroit Tigers,L
+5,4/5/2014,at Detroit Tigers,L
+6,4/6/2014,at Detroit Tigers,W
+7,4/7/2014,at New York Yankees,L
+8,4/8/2014,at New York Yankees,W
+9,4/9/2014,at New York Yankees,W
+10,4/11/2014,vs Toronto Blue Jays,L
+11,4/12/2014,vs Toronto Blue Jays,W
+12,4/13/2014,vs Toronto Blue Jays,L
+13,4/14/2014,vs Tampa Bay Rays,W
+14,4/16/2014,vs Tampa Bay Rays,W
+15,4/18/2014,at Boston Red Sox,W
+16,4/19/2014,at Boston Red Sox,L
+17,4/20/2014,at Boston Red Sox,L
+18,4/21/2014,at Boston Red Sox,W
+19,4/22/2014,at Toronto Blue Jays,L
+20,4/23/2014,at Toronto Blue Jays,W
+21,4/24/2014,at Toronto Blue Jays,W
+22,4/25/2014,vs Kansas City Royals,L
+23,4/26/2014,vs Kansas City Royals,W
+24,4/27/2014,vs Kansas City Royals,L
+25-I,5/1/2014,vs Pittsburgh Pirates,W
+26-II,5/1/2014,vs Pittsburgh Pirates,W
+27,5/2/2014,at Minnesota Twins,W
+28,5/3/2014,at Minnesota Twins,L
+29,5/4/2014,at Minnesota Twins,L
+30,5/6/2014,at Tampa Bay Rays,W
+31,5/7/2014,at Tampa Bay Rays,W
+32,5/8/2014,at Tampa Bay Rays,W
+33,5/9/2014,vs Houston Astros,W
+34,5/10/2014,vs Houston Astros,W
+35,5/11/2014,vs Houston Astros,L
+36,5/12/2014,vs Detroit Tigers,L
+37,5/13/2014,vs Detroit Tigers,L
+38,5/14/2014,vs Detroit Tigers,L
+39,5/15/2014,at Kansas City Royals,W
+40,5/16/2014,at Kansas City Royals,W
+41,5/17/2014,at Kansas City Royals,L
+42,5/18/2014,at Kansas City Royals,L
+43,5/20/2014,at Pittsburgh Pirates,W
+44,5/21/2014,at Pittsburgh Pirates,L
+45,5/22/2014,vs Cleveland Indians,L
+46,5/23/2014,vs Cleveland Indians,W
+47,5/24/2014,vs Cleveland Indians,L
+48,5/25/2014,vs Cleveland Indians,W
+49,5/26/2014,at Milwaukee Brewers,W
+50,5/27/2014,at Milwaukee Brewers,L
+51,5/28/2014,at Milwaukee Brewers,L
+52,5/29/2014,at Houston Astros,L
+53,5/30/2014,at Houston Astros,L
+54,5/31/2014,at Houston Astros,W
+55,6/1/2014,at Houston Astros,W
+56,6/3/2014,at Texas Rangers,W
+57,6/4/2014,at Texas Rangers,W
+58,6/5/2014,at Texas Rangers,L
+59,6/6/2014,vs Oakland Athletics,L
+60,6/7/2014,vs Oakland Athletics,W
+61,6/8/2014,vs Oakland Athletics,L
+62,6/9/2014,vs Boston Red Sox,W
+63,6/10/2014,vs Boston Red Sox,L
+64,6/11/2014,vs Boston Red Sox,W
+65,6/12/2014,vs Toronto Blue Jays,W
+66,6/13/2014,vs Toronto Blue Jays,L
+67,6/14/2014,vs Toronto Blue Jays,W
+68,6/15/2014,vs Toronto Blue Jays,L
+69,6/16/2014,at Tampa Bay Rays,L
+70,6/17/2014,at Tampa Bay Rays,W
+71,6/18/2014,at Tampa Bay Rays,W
+72,6/20/2014,at New York Yankees,L
+73,6/21/2014,at New York Yankees,W
+74,6/22/2014,at New York Yankees,W
+75,6/23/2014,vs Chicago White Sox,W
+76,6/24/2014,vs Chicago White Sox,L
+77,6/25/2014,vs Chicago White Sox,W
+78-I,6/27/2014,vs Tampa Bay Rays,L
+79-II,6/27/2014,vs Tampa Bay Rays,W
+80,6/28/2014,vs Tampa Bay Rays,L
+81,6/29/2014,vs Tampa Bay Rays,L
+82,6/30/2014,vs Texas Rangers,W
+83,7/1/2014,vs Texas Rangers,W
+84,7/2/2014,vs Texas Rangers,W
+85,7/3/2014,vs Texas Rangers,W
+86-I,7/5/2014,at Boston Red Sox,L
+87-II,7/5/2014,at Boston Red Sox,W
+88,7/6/2014,at Boston Red Sox,W
+89,7/7/2014,at Washington Nationals,W
+90,7/9/2014,vs Washington Nationals,L
+91,7/10/2014,vs Washington Nationals,W
+92,7/11/2014,vs New York Yankees,W
+93,7/12/2014,vs New York Yankees,L
+94,7/13/2014,vs New York Yankees,W
+95,7/18/2014,at Oakland Athletics,L
+96,7/19/2014,at Oakland Athletics,W
+97,7/20/2014,at Oakland Athletics,L
+98,7/21/2014,at Los Angeles Angels,W
+99,7/22/2014,at Los Angeles Angels,W
+100,7/23/2014,at Los Angeles Angels,L
+101,7/24/2014,at Seattle Mariners,W
+102,7/25/2014,at Seattle Mariners,W
+103,7/26/2014,at Seattle Mariners,L
+104,7/27/2014,at Seattle Mariners,W
+105,7/29/2014,vs Los Angeles Angels,W
+106,7/30/2014,vs Los Angeles Angels,W
+107,7/31/2014,vs Los Angeles Angels,L
+108,8/1/2014,vs Seattle Mariners,W
+109,8/2/2014,vs Seattle Mariners,L
+110,8/3/2014,vs Seattle Mariners,W
+111,8/4/2014,at Washington Nationals,W
+112,8/5/2014,at Toronto Blue Jays,W
+113,8/6/2014,at Toronto Blue Jays,L
+114,8/7/2014,at Toronto Blue Jays,W
+115,8/8/2014,vs St. Louis Cardinals,W
+116,8/9/2014,vs St. Louis Cardinals,W
+117,8/10/2014,vs St. Louis Cardinals,L
+118,8/11/2014,vs New York Yankees,W
+119,8/13/2014,vs New York Yankees,W
+120,8/15/2014,at Cleveland Indians,L
+121,8/16/2014,at Cleveland Indians,L
+122,8/17/2014,at Cleveland Indians,W
+123,8/18/2014,at Chicago White Sox,W
+124,8/19/2014,at Chicago White Sox,W
+125,8/20/2014,at Chicago White Sox,W
+126,8/22/2014,at Chicago Cubs,L
+127,8/23/2014,at Chicago Cubs,L
+128,8/24/2014,at Chicago Cubs,L
+129,8/25/2014,vs Tampa Bay Rays,W
+130,8/26/2014,vs Tampa Bay Rays,W
+131,8/27/2014,vs Tampa Bay Rays,L
+132,8/28/2014,vs Tampa Bay Rays,W
+133,8/29/2014,vs Minnesota Twins,W
+134,8/30/2014,vs Minnesota Twins,W
+135,8/31/2014,vs Minnesota Twins,W
+136,9/1/2014,vs Minnesota Twins,L
+137,9/2/2014,vs Cincinnati Reds,W
+138,9/3/2014,vs Cincinnati Reds,W
+139,9/4/2014,vs Cincinnati Reds,W
+140,9/5/2014,at Tampa Bay Rays,L
+141,9/6/2014,at Tampa Bay Rays,L
+142,9/7/2014,at Tampa Bay Rays,W
+143,9/8/2014,at Boston Red Sox,W
+144,9/9/2014,at Boston Red Sox,W
+145,9/10/2014,at Boston Red Sox,W
+146-I,9/12/2014,vs New York Yankees,W
+147-II,9/12/2014,vs New York Yankees,W
+148,9/13/2014,vs New York Yankees,L
+149,9/14/2014,vs New York Yankees,W
+150,9/15/2014,vs Toronto Blue Jays,W
+151,9/16/2014,vs Toronto Blue Jays,W
+152,9/17/2014,vs Toronto Blue Jays,W
+153,9/19/2014,vs Boston Red Sox,L
+154,9/20/2014,vs Boston Red Sox,W
+155,9/21/2014,vs Boston Red Sox,L
+156,9/22/2014,at New York Yankees,L
+157,9/23/2014,at New York Yankees,W
+158,9/24/2014,at New York Yankees,W
+159,9/25/2014,at New York Yankees,L
+160,9/26/2014,at Toronto Blue Jays,L
+161,9/27/2014,at Toronto Blue Jays,L
+162,9/28/2014,at Toronto Blue Jays,W

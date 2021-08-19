@@ -1,0 +1,163 @@
+gameno,gamedate,opponent,outcome
+1,4/6/2015,at Tampa Bay Rays,W
+2,4/7/2015,at Tampa Bay Rays,W
+3,4/8/2015,at Tampa Bay Rays,L
+4,4/10/2015,vs Toronto Blue Jays,L
+5,4/11/2015,vs Toronto Blue Jays,W
+6,4/12/2015,vs Toronto Blue Jays,L
+7,4/13/2015,vs New York Yankees,L
+8,4/14/2015,vs New York Yankees,W
+9,4/15/2015,vs New York Yankees,W
+10,4/17/2015,at Boston Red Sox,L
+11,4/18/2015,at Boston Red Sox,W
+12,4/19/2015,at Boston Red Sox,W
+13,4/20/2015,at Boston Red Sox,L
+14,4/21/2015,at Toronto Blue Jays,L
+15,4/22/2015,at Toronto Blue Jays,L
+16,4/23/2015,at Toronto Blue Jays,L
+17,4/24/2015,vs Boston Red Sox,L
+18,4/25/2015,vs Boston Red Sox,W
+19,4/26/2015,vs Boston Red Sox,W
+20,4/29/2015,vs Chicago White Sox,W
+21,5/1/2015,vs Tampa Bay Rays,L
+22,5/2/2015,vs Tampa Bay Rays,W
+23,5/3/2015,vs Tampa Bay Rays,W
+24,5/5/2015,at New York Mets,L
+25,5/6/2015,at New York Mets,L
+26,5/7/2015,at New York Yankees,L
+27,5/8/2015,at New York Yankees,L
+28,5/9/2015,at New York Yankees,W
+29,5/10/2015,at New York Yankees,L
+30,5/11/2015,vs Toronto Blue Jays,W
+31,5/12/2015,vs Toronto Blue Jays,L
+32,5/13/2015,vs Toronto Blue Jays,W
+33,5/15/2015,vs Los Angeles Angels,L
+34,5/16/2015,vs Los Angeles Angels,L
+35,5/17/2015,vs Los Angeles Angels,W
+36,5/19/2015,vs Seattle Mariners,W
+37,5/20/2015,vs Seattle Mariners,L
+38,5/21/2015,vs Seattle Mariners,W
+39,5/22/2015,at Miami Marlins,W
+40,5/23/2015,at Miami Marlins,L
+41,5/24/2015,at Miami Marlins,L
+42,5/25/2015,vs Houston Astros,W
+43,5/26/2015,vs Houston Astros,L
+44,5/27/2015,vs Houston Astros,W
+45-I,5/28/2015,vs Chicago White Sox,L
+46-II,5/28/2015,vs Chicago White Sox,W
+47,5/29/2015,vs Tampa Bay Rays,W
+48,5/30/2015,vs Tampa Bay Rays,L
+49,5/31/2015,vs Tampa Bay Rays,L
+50,6/1/2015,at Houston Astros,L
+51,6/2/2015,at Houston Astros,L
+52,6/3/2015,at Houston Astros,L
+53,6/4/2015,at Houston Astros,W
+54,6/5/2015,at Cleveland Indians,W
+55,6/6/2015,at Cleveland Indians,L
+56,6/7/2015,at Cleveland Indians,W
+57,6/9/2015,vs Boston Red Sox,W
+58,6/10/2015,vs Boston Red Sox,W
+59,6/11/2015,vs Boston Red Sox,W
+60,6/12/2015,vs New York Yankees,W
+61,6/13/2015,vs New York Yankees,W
+62,6/14/2015,vs New York Yankees,L
+63,6/15/2015,vs Philadelphia Phillies,W
+64,6/16/2015,vs Philadelphia Phillies,W
+65,6/17/2015,at Philadelphia Phillies,W
+66,6/18/2015,at Philadelphia Phillies,L
+67,6/19/2015,at Toronto Blue Jays,L
+68,6/20/2015,at Toronto Blue Jays,W
+69,6/21/2015,at Toronto Blue Jays,W
+70,6/23/2015,at Boston Red Sox,W
+71,6/24/2015,at Boston Red Sox,L
+72,6/25/2015,at Boston Red Sox,W
+73,6/26/2015,vs Cleveland Indians,W
+74-I,6/28/2015,vs Cleveland Indians,W
+75-II,6/28/2015,vs Cleveland Indians,W
+76,6/29/2015,vs Texas Rangers,L
+77,6/30/2015,vs Texas Rangers,L
+78,7/1/2015,vs Texas Rangers,W
+79,7/2/2015,vs Texas Rangers,L
+80,7/3/2015,at Chicago White Sox,L
+81,7/4/2015,at Chicago White Sox,L
+82,7/5/2015,at Chicago White Sox,W
+83,7/6/2015,at Minnesota Twins,L
+84,7/7/2015,at Minnesota Twins,L
+85,7/8/2015,at Minnesota Twins,L
+86,7/10/2015,vs Washington Nationals,W
+87,7/11/2015,vs Washington Nationals,L
+88,7/12/2015,vs Washington Nationals,L
+89,7/17/2015,at Detroit Tigers,L
+90,7/18/2015,at Detroit Tigers,W
+91,7/19/2015,at Detroit Tigers,W
+92,7/21/2015,at New York Yankees,L
+93,7/22/2015,at New York Yankees,L
+94,7/23/2015,at New York Yankees,L
+95,7/24/2015,at Tampa Bay Rays,L
+96,7/25/2015,at Tampa Bay Rays,W
+97,7/26/2015,at Tampa Bay Rays,W
+98,7/27/2015,vs Atlanta Braves,W
+99,7/28/2015,vs Atlanta Braves,W
+100,7/29/2015,vs Atlanta Braves,W
+101,7/30/2015,vs Detroit Tigers,L
+102,7/31/2015,vs Detroit Tigers,W
+103,8/1/2015,vs Detroit Tigers,W
+104,8/2/2015,vs Detroit Tigers,L
+105,8/3/2015,at Oakland Athletics,W
+106,8/4/2015,at Oakland Athletics,L
+107,8/5/2015,at Oakland Athletics,W
+108,8/7/2015,at Los Angeles Angels,L
+109,8/8/2015,at Los Angeles Angels,W
+110,8/9/2015,at Los Angeles Angels,L
+111,8/10/2015,at Seattle Mariners,W
+112,8/11/2015,at Seattle Mariners,L
+113,8/12/2015,at Seattle Mariners,L
+114,8/14/2015,vs Oakland Athletics,W
+115,8/15/2015,vs Oakland Athletics,W
+116,8/16/2015,vs Oakland Athletics,W
+117,8/17/2015,vs Oakland Athletics,W
+118,8/18/2015,vs New York Mets,L
+119,8/19/2015,vs New York Mets,W
+120,8/20/2015,vs Minnesota Twins,L
+121,8/21/2015,vs Minnesota Twins,L
+122,8/22/2015,vs Minnesota Twins,L
+123,8/23/2015,vs Minnesota Twins,L
+124,8/24/2015,at Kansas City Royals,L
+125,8/25/2015,at Kansas City Royals,L
+126,8/26/2015,at Kansas City Royals,W
+127,8/27/2015,at Kansas City Royals,L
+128,8/28/2015,at Texas Rangers,L
+129,8/29/2015,at Texas Rangers,L
+130,8/30/2015,at Texas Rangers,L
+131,8/31/2015,vs Tampa Bay Rays,L
+132,9/1/2015,vs Tampa Bay Rays,L
+133,9/2/2015,vs Tampa Bay Rays,W
+134,9/4/2015,at Toronto Blue Jays,W
+135,9/5/2015,at Toronto Blue Jays,L
+136,9/6/2015,at Toronto Blue Jays,L
+137,9/7/2015,at New York Yankees,L
+138,9/8/2015,at New York Yankees,W
+139,9/9/2015,at New York Yankees,W
+140,9/11/2015,vs Kansas City Royals,W
+141,9/12/2015,vs Kansas City Royals,L
+142,9/13/2015,vs Kansas City Royals,W
+143,9/14/2015,vs Boston Red Sox,W
+144,9/15/2015,vs Boston Red Sox,W
+145,9/16/2015,vs Boston Red Sox,L
+146,9/17/2015,at Tampa Bay Rays,W
+147,9/18/2015,at Tampa Bay Rays,L
+148,9/19/2015,at Tampa Bay Rays,W
+149,9/20/2015,at Tampa Bay Rays,L
+150,9/22/2015,at Washington Nationals,W
+151,9/23/2015,at Washington Nationals,W
+152,9/24/2015,at Washington Nationals,W
+153,9/25/2015,at Boston Red Sox,L
+154,9/26/2015,at Boston Red Sox,L
+155,9/27/2015,at Boston Red Sox,L
+156,9/28/2015,vs Toronto Blue Jays,L
+157-I,9/30/2015,vs Toronto Blue Jays,L
+158-II,9/30/2015,vs Toronto Blue Jays,W
+159,10/1/2015,vs Toronto Blue Jays,W
+160-I,10/3/2015,vs New York Yankees,W
+161-II,10/3/2015,vs New York Yankees,W
+162,10/4/2015,vs New York Yankees,W

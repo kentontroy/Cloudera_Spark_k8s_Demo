@@ -1,0 +1,163 @@
+gameno,gamedate,opponent,outcome
+1,4/6/2012,vs Minnesota Twins,W
+2,4/7/2012,vs Minnesota Twins,W
+3,4/8/2012,vs Minnesota Twins,W
+4,4/9/2012,vs New York Yankees,L
+5,4/10/2012,vs New York Yankees,L
+6,4/11/2012,vs New York Yankees,L
+7,4/13/2012,at Toronto Blue Jays,W
+8,4/14/2012,at Toronto Blue Jays,W
+9,4/15/2012,at Toronto Blue Jays,L
+10,4/16/2012,at Chicago White Sox,W
+11,4/17/2012,at Chicago White Sox,W
+12,4/18/2012,at Chicago White Sox,L
+13,4/19/2012,at Chicago White Sox,W
+14,4/20/2012,at Los Angeles Angels,L
+15,4/21/2012,at Los Angeles Angels,L
+16,4/22/2012,at Los Angeles Angels,W
+17,4/24/2012,vs Toronto Blue Jays,W
+18,4/25/2012,vs Toronto Blue Jays,W
+19,4/26/2012,vs Toronto Blue Jays,W
+20,4/27/2012,vs Oakland Athletics,L
+21,4/28/2012,vs Oakland Athletics,W
+22,4/29/2012,vs Oakland Athletics,W
+23,4/30/2012,at New York Yankees,L
+24,5/1/2012,at New York Yankees,W
+25,5/2/2012,at New York Yankees,W
+26,5/4/2012,at Boston Red Sox,W
+27,5/5/2012,at Boston Red Sox,W
+28,5/6/2012,at Boston Red Sox,W
+29,5/7/2012,vs Texas Rangers,L
+30,5/8/2012,vs Texas Rangers,L
+31-I,5/10/2012,vs Texas Rangers,W
+32-II,5/10/2012,vs Texas Rangers,L
+33,5/11/2012,vs Tampa Bay Rays,W
+34,5/12/2012,vs Tampa Bay Rays,W
+35,5/13/2012,vs Tampa Bay Rays,L
+36,5/14/2012,vs New York Yankees,L
+37,5/15/2012,vs New York Yankees,W
+38,5/16/2012,at Kansas City Royals,W
+39,5/17/2012,at Kansas City Royals,W
+40,5/18/2012,at Washington Nationals,W
+41,5/19/2012,at Washington Nationals,W
+42,5/20/2012,at Washington Nationals,L
+43,5/21/2012,vs Boston Red Sox,L
+44,5/22/2012,vs Boston Red Sox,W
+45,5/23/2012,vs Boston Red Sox,L
+46,5/25/2012,vs Kansas City Royals,W
+47,5/26/2012,vs Kansas City Royals,L
+48,5/27/2012,vs Kansas City Royals,L
+49,5/28/2012,at Toronto Blue Jays,L
+50,5/29/2012,at Toronto Blue Jays,L
+51,5/30/2012,at Toronto Blue Jays,L
+52,6/1/2012,at Tampa Bay Rays,L
+53,6/2/2012,at Tampa Bay Rays,W
+54,6/3/2012,at Tampa Bay Rays,L
+55,6/5/2012,at Boston Red Sox,W
+56,6/6/2012,at Boston Red Sox,W
+57,6/7/2012,at Boston Red Sox,L
+58,6/8/2012,vs Philadelphia Phillies,L
+59,6/9/2012,vs Philadelphia Phillies,W
+60,6/10/2012,vs Philadelphia Phillies,W
+61,6/12/2012,vs Pittsburgh Pirates,W
+62,6/13/2012,vs Pittsburgh Pirates,W
+63,6/14/2012,vs Pittsburgh Pirates,W
+64,6/15/2012,at Atlanta Braves,L
+65,6/16/2012,at Atlanta Braves,W
+66,6/17/2012,at Atlanta Braves,W
+67,6/18/2012,at New York Mets,L
+68,6/19/2012,at New York Mets,L
+69,6/20/2012,at New York Mets,L
+70,6/22/2012,vs Washington Nationals,W
+71,6/23/2012,vs Washington Nationals,L
+72,6/24/2012,vs Washington Nationals,W
+73,6/26/2012,vs Los Angeles Angels,L
+74,6/27/2012,vs Los Angeles Angels,L
+75,6/28/2012,vs Cleveland Indians,L
+76,6/29/2012,vs Cleveland Indians,W
+77,6/30/2012,vs Cleveland Indians,L
+78,7/1/2012,vs Cleveland Indians,L
+79,7/2/2012,at Seattle Mariners,L
+80,7/3/2012,at Seattle Mariners,W
+81,7/4/2012,at Seattle Mariners,W
+82,7/5/2012,at Los Angeles Angels,L
+83,7/6/2012,at Los Angeles Angels,W
+84,7/7/2012,at Los Angeles Angels,L
+85,7/8/2012,at Los Angeles Angels,L
+86,7/13/2012,vs Detroit Tigers,L
+87,7/14/2012,vs Detroit Tigers,W
+88,7/15/2012,vs Detroit Tigers,L
+89,7/16/2012,at Minnesota Twins,L
+90,7/17/2012,at Minnesota Twins,L
+91,7/18/2012,at Minnesota Twins,W
+92,7/19/2012,at Minnesota Twins,W
+93,7/20/2012,at Cleveland Indians,W
+94,7/21/2012,at Cleveland Indians,W
+95,7/22/2012,at Cleveland Indians,W
+96,7/23/2012,at Cleveland Indians,L
+97,7/24/2012,vs Tampa Bay Rays,L
+98,7/25/2012,vs Tampa Bay Rays,L
+99,7/26/2012,vs Tampa Bay Rays,W
+100,7/27/2012,vs Oakland Athletics,L
+101,7/28/2012,vs Oakland Athletics,L
+102,7/29/2012,vs Oakland Athletics,W
+103,7/30/2012,at New York Yankees,W
+104,7/31/2012,at New York Yankees,W
+105,8/1/2012,at New York Yankees,L
+106,8/3/2012,at Tampa Bay Rays,L
+107,8/4/2012,at Tampa Bay Rays,W
+108,8/5/2012,at Tampa Bay Rays,W
+109,8/6/2012,vs Seattle Mariners,W
+110,8/7/2012,vs Seattle Mariners,W
+111,8/8/2012,vs Seattle Mariners,W
+112,8/9/2012,vs Kansas City Royals,L
+113,8/10/2012,vs Kansas City Royals,W
+114,8/11/2012,vs Kansas City Royals,L
+115,8/12/2012,vs Kansas City Royals,W
+116,8/14/2012,vs Boston Red Sox,W
+117,8/15/2012,vs Boston Red Sox,W
+118,8/16/2012,vs Boston Red Sox,L
+119,8/17/2012,at Detroit Tigers,L
+120,8/18/2012,at Detroit Tigers,W
+121,8/19/2012,at Detroit Tigers,W
+122,8/20/2012,at Texas Rangers,L
+123,8/21/2012,at Texas Rangers,W
+124,8/22/2012,at Texas Rangers,L
+125,8/24/2012,vs Toronto Blue Jays,W
+126,8/25/2012,vs Toronto Blue Jays,W
+127,8/27/2012,vs Chicago White Sox,W
+128,8/28/2012,vs Chicago White Sox,W
+129,8/29/2012,vs Chicago White Sox,L
+130,8/30/2012,vs Chicago White Sox,W
+131,8/31/2012,at New York Yankees,W
+132,9/1/2012,at New York Yankees,L
+133,9/2/2012,at New York Yankees,W
+134,9/3/2012,at Toronto Blue Jays,W
+135,9/4/2012,at Toronto Blue Jays,W
+136,9/5/2012,at Toronto Blue Jays,L
+137,9/6/2012,vs New York Yankees,W
+138,9/7/2012,vs New York Yankees,L
+139,9/8/2012,vs New York Yankees,W
+140,9/9/2012,vs New York Yankees,L
+141,9/11/2012,vs Tampa Bay Rays,W
+142,9/12/2012,vs Tampa Bay Rays,W
+143,9/13/2012,vs Tampa Bay Rays,W
+144,9/14/2012,at Oakland Athletics,L
+145,9/15/2012,at Oakland Athletics,L
+146,9/16/2012,at Oakland Athletics,W
+147,9/17/2012,at Seattle Mariners,W
+148,9/18/2012,at Seattle Mariners,W
+149,9/19/2012,at Seattle Mariners,W
+150,9/21/2012,at Boston Red Sox,W
+151,9/22/2012,at Boston Red Sox,W
+152,9/23/2012,at Boston Red Sox,L
+153-I,9/24/2012,vs Toronto Blue Jays,W
+154-II,9/24/2012,vs Toronto Blue Jays,L
+155,9/25/2012,vs Toronto Blue Jays,L
+156,9/26/2012,vs Toronto Blue Jays,W
+157,9/28/2012,vs Boston Red Sox,W
+158,9/29/2012,vs Boston Red Sox,W
+159,9/30/2012,vs Boston Red Sox,W
+160,10/1/2012,at Tampa Bay Rays,L
+161,10/2/2012,at Tampa Bay Rays,W
+162,10/3/2012,at Tampa Bay Rays,L

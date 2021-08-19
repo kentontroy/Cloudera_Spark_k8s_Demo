@@ -1,0 +1,164 @@
+gameno,gamedate,opponent,outcome
+1,4/4/2016,vs Minnesota Twins,W
+2,4/6/2016,vs Minnesota Twins,W
+3,4/7/2016,vs Minnesota Twins,W
+4,4/8/2016,vs Tampa Bay Rays,W
+5,4/10/2016,vs Tampa Bay Rays,W
+6,4/11/2016,at Boston Red Sox,W
+7,4/12/2016,at Boston Red Sox,W
+8,4/13/2016,at Boston Red Sox,L
+9,4/14/2016,at Texas Rangers,L
+10,4/15/2016,at Texas Rangers,W
+11,4/16/2016,at Texas Rangers,L
+12,4/19/2016,vs Toronto Blue Jays,L
+13,4/20/2016,vs Toronto Blue Jays,W
+14,4/21/2016,vs Toronto Blue Jays,W
+15,4/22/2016,at Kansas City Royals,L
+16,4/23/2016,at Kansas City Royals,W
+17,4/24/2016,at Kansas City Royals,L
+18,4/25/2016,at Tampa Bay Rays,L
+19,4/26/2016,at Tampa Bay Rays,L
+20,4/27/2016,at Tampa Bay Rays,W
+21,4/28/2016,vs Chicago White Sox,W
+22,4/29/2016,vs Chicago White Sox,W
+23,4/30/2016,vs Chicago White Sox,L
+24,5/1/2016,vs Chicago White Sox,L
+25,5/3/2016,vs New York Yankees,W
+26,5/4/2016,vs New York Yankees,L
+27,5/5/2016,vs New York Yankees,W
+28-I,5/7/2016,vs Oakland Athletics,L
+29-II,5/7/2016,vs Oakland Athletics,W
+30,5/8/2016,vs Oakland Athletics,W
+31,5/10/2016,at Minnesota Twins,W
+32,5/11/2016,at Minnesota Twins,W
+33,5/12/2016,vs Detroit Tigers,W
+34,5/13/2016,vs Detroit Tigers,W
+35,5/14/2016,vs Detroit Tigers,W
+36,5/15/2016,vs Detroit Tigers,L
+37,5/17/2016,vs Seattle Mariners,L
+38,5/18/2016,vs Seattle Mariners,W
+39,5/19/2016,vs Seattle Mariners,L
+40,5/20/2016,at Los Angeles Angels,W
+41,5/21/2016,at Los Angeles Angels,W
+42,5/22/2016,at Los Angeles Angels,L
+43,5/24/2016,at Houston Astros,L
+44,5/25/2016,at Houston Astros,L
+45,5/26/2016,at Houston Astros,L
+46,5/27/2016,at Cleveland Indians,W
+47,5/28/2016,at Cleveland Indians,L
+48,5/29/2016,at Cleveland Indians,W
+49,5/30/2016,vs Boston Red Sox,L
+50,5/31/2016,vs Boston Red Sox,L
+51,6/1/2016,vs Boston Red Sox,W
+52,6/2/2016,vs Boston Red Sox,W
+53,6/3/2016,vs New York Yankees,W
+54,6/4/2016,vs New York Yankees,L
+55,6/5/2016,vs New York Yankees,W
+56,6/6/2016,vs Kansas City Royals,W
+57,6/7/2016,vs Kansas City Royals,W
+58,6/8/2016,vs Kansas City Royals,W
+59,6/9/2016,at Toronto Blue Jays,W
+60,6/10/2016,at Toronto Blue Jays,L
+61,6/11/2016,at Toronto Blue Jays,L
+62,6/12/2016,at Toronto Blue Jays,L
+63,6/14/2016,at Boston Red Sox,W
+64,6/15/2016,at Boston Red Sox,L
+65,6/16/2016,at Boston Red Sox,W
+66,6/17/2016,vs Toronto Blue Jays,L
+67,6/18/2016,vs Toronto Blue Jays,W
+68,6/19/2016,vs Toronto Blue Jays,W
+69,6/20/2016,at Texas Rangers,L
+70,6/21/2016,vs San Diego Padres,L
+71,6/22/2016,vs San Diego Padres,W
+72,6/24/2016,vs Tampa Bay Rays,W
+73-I,6/25/2016,vs Tampa Bay Rays,W
+74-II,6/25/2016,vs Tampa Bay Rays,W
+75,6/26/2016,vs Tampa Bay Rays,W
+76,6/28/2016,at San Diego Padres,W
+77,6/29/2016,at San Diego Padres,W
+78,6/30/2016,at Seattle Mariners,L
+79,7/1/2016,at Seattle Mariners,L
+80,7/2/2016,at Seattle Mariners,L
+81,7/3/2016,at Seattle Mariners,L
+82,7/4/2016,at Los Angeles Dodgers,L
+83,7/5/2016,at Los Angeles Dodgers,W
+84,7/6/2016,at Los Angeles Dodgers,W
+85,7/8/2016,vs Los Angeles Angels,L
+86,7/9/2016,vs Los Angeles Angels,W
+87,7/10/2016,vs Los Angeles Angels,W
+88,7/15/2016,at Tampa Bay Rays,W
+89,7/16/2016,at Tampa Bay Rays,W
+90,7/17/2016,at Tampa Bay Rays,L
+91,7/18/2016,at New York Yankees,L
+92,7/19/2016,at New York Yankees,L
+93,7/20/2016,at New York Yankees,L
+94,7/21/2016,at New York Yankees,W
+95,7/22/2016,vs Cleveland Indians,W
+96,7/23/2016,vs Cleveland Indians,W
+97,7/24/2016,vs Cleveland Indians,W
+98,7/25/2016,vs Colorado Rockies,W
+99,7/26/2016,vs Colorado Rockies,L
+100,7/27/2016,vs Colorado Rockies,L
+101,7/28/2016,at Minnesota Twins,L
+102,7/29/2016,at Toronto Blue Jays,L
+103,7/30/2016,at Toronto Blue Jays,L
+104,7/31/2016,at Toronto Blue Jays,W
+105,8/2/2016,vs Texas Rangers,W
+106,8/3/2016,vs Texas Rangers,W
+107,8/4/2016,vs Texas Rangers,L
+108,8/5/2016,at Chicago White Sox,W
+109,8/6/2016,at Chicago White Sox,L
+110,8/7/2016,at Chicago White Sox,W
+111,8/8/2016,at Oakland Athletics,L
+112,8/9/2016,at Oakland Athletics,L
+113,8/10/2016,at Oakland Athletics,L
+114,8/11/2016,at Oakland Athletics,W
+115,8/12/2016,at San Francisco Giants,W
+116,8/13/2016,at San Francisco Giants,L
+117,8/14/2016,at San Francisco Giants,W
+118,8/16/2016,vs Boston Red Sox,L
+119,8/17/2016,vs Boston Red Sox,L
+120,8/18/2016,vs Houston Astros,W
+121,8/19/2016,vs Houston Astros,L
+122,8/20/2016,vs Houston Astros,L
+123,8/21/2016,vs Houston Astros,L
+124,8/22/2016,vs Washington Nationals,W
+125,8/23/2016,vs Washington Nationals,W
+126,8/24/2016,at Washington Nationals,W
+127,8/25/2016,at Washington Nationals,L
+128,8/26/2016,at New York Yankees,L
+129,8/27/2016,at New York Yankees,L
+130,8/28/2016,at New York Yankees,W
+131,8/29/2016,vs Toronto Blue Jays,L
+132,8/30/2016,vs Toronto Blue Jays,W
+133,8/31/2016,vs Toronto Blue Jays,L
+134,9/2/2016,vs New York Yankees,W
+135,9/3/2016,vs New York Yankees,W
+136,9/4/2016,vs New York Yankees,L
+137,9/5/2016,at Tampa Bay Rays,W
+138,9/6/2016,at Tampa Bay Rays,W
+139,9/7/2016,at Tampa Bay Rays,L
+140,9/9/2016,at Detroit Tigers,L
+141,9/10/2016,at Detroit Tigers,W
+142,9/11/2016,at Detroit Tigers,W
+143,9/12/2016,at Boston Red Sox,L
+144,9/13/2016,at Boston Red Sox,W
+145,9/14/2016,at Boston Red Sox,W
+146,9/15/2016,vs Tampa Bay Rays,L
+147,9/16/2016,vs Tampa Bay Rays,W
+148,9/17/2016,vs Tampa Bay Rays,L
+149,9/18/2016,vs Tampa Bay Rays,W
+150,9/19/2016,vs Boston Red Sox,L
+151,9/20/2016,vs Boston Red Sox,L
+152,9/21/2016,vs Boston Red Sox,L
+153,9/22/2016,vs Boston Red Sox,L
+154,9/23/2016,vs Arizona Diamondbacks,W
+155,9/24/2016,vs Arizona Diamondbacks,W
+156,9/25/2016,vs Arizona Diamondbacks,W
+157,9/27/2016,at Toronto Blue Jays,L
+158,9/28/2016,at Toronto Blue Jays,W
+159,9/29/2016,at Toronto Blue Jays,W
+160,9/30/2016,at New York Yankees,W
+161,10/1/2016,at New York Yankees,L
+162,10/2/2016,at New York Yankees,W
+163,10/4/2016,at Toronto Blue Jays,L

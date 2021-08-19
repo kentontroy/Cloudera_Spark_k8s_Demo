@@ -1,0 +1,163 @@
+gameno,gamedate,opponent,outcome
+1,4/1/2011,at Tampa Bay Rays,W
+2,4/2/2011,at Tampa Bay Rays,W
+3,4/3/2011,at Tampa Bay Rays,W
+4,4/4/2011,vs Detroit Tigers,W
+5,4/6/2011,vs Detroit Tigers,L
+6,4/7/2011,vs Detroit Tigers,W
+7-I,4/9/2011,vs Texas Rangers,W
+8-II,4/9/2011,vs Texas Rangers,L
+9,4/10/2011,vs Texas Rangers,L
+10,4/13/2011,at New York Yankees,L
+11,4/14/2011,at New York Yankees,L
+12,4/15/2011,at Cleveland Indians,L
+13,4/16/2011,at Cleveland Indians,L
+14,4/17/2011,at Cleveland Indians,L
+15,4/18/2011,vs Minnesota Twins,L
+16,4/19/2011,vs Minnesota Twins,W
+17,4/20/2011,vs Minnesota Twins,W
+18,4/21/2011,vs Minnesota Twins,L
+19,4/23/2011,vs New York Yankees,L
+20,4/24/2011,vs New York Yankees,L
+21,4/26/2011,vs Boston Red Sox,W
+22,4/27/2011,vs Boston Red Sox,W
+23,4/28/2011,vs Boston Red Sox,L
+24,4/29/2011,at Chicago White Sox,W
+25,4/30/2011,at Chicago White Sox,W
+26,5/1/2011,at Chicago White Sox,W
+27,5/2/2011,at Chicago White Sox,L
+28,5/3/2011,at Kansas City Royals,L
+29,5/4/2011,at Kansas City Royals,W
+30,5/5/2011,at Kansas City Royals,L
+31,5/6/2011,vs Tampa Bay Rays,L
+32,5/7/2011,vs Tampa Bay Rays,L
+33,5/8/2011,vs Tampa Bay Rays,L
+34,5/10/2011,vs Seattle Mariners,W
+35,5/11/2011,vs Seattle Mariners,W
+36,5/12/2011,vs Seattle Mariners,W
+37,5/13/2011,at Tampa Bay Rays,L
+38,5/14/2011,at Tampa Bay Rays,W
+39,5/15/2011,at Tampa Bay Rays,W
+40,5/16/2011,at Boston Red Sox,L
+41,5/18/2011,vs New York Yankees,L
+42,5/19/2011,vs New York Yankees,L
+43,5/20/2011,vs Washington Nationals,L
+44,5/21/2011,vs Washington Nationals,W
+45,5/22/2011,vs Washington Nationals,W
+46,5/24/2011,vs Kansas City Royals,W
+47,5/25/2011,vs Kansas City Royals,W
+48,5/26/2011,vs Kansas City Royals,W
+49,5/27/2011,at Oakland Athletics,L
+50,5/28/2011,at Oakland Athletics,L
+51,5/29/2011,at Oakland Athletics,L
+52,5/30/2011,at Seattle Mariners,L
+53,5/31/2011,at Seattle Mariners,L
+54,6/1/2011,at Seattle Mariners,W
+55,6/3/2011,vs Toronto Blue Jays,L
+56,6/4/2011,vs Toronto Blue Jays,W
+57,6/5/2011,vs Toronto Blue Jays,L
+58,6/6/2011,vs Oakland Athletics,W
+59,6/7/2011,vs Oakland Athletics,W
+60,6/8/2011,vs Oakland Athletics,W
+61,6/10/2011,vs Tampa Bay Rays,W
+62,6/11/2011,vs Tampa Bay Rays,L
+63,6/12/2011,vs Tampa Bay Rays,L
+64,6/14/2011,at Toronto Blue Jays,L
+65,6/15/2011,at Toronto Blue Jays,L
+66,6/16/2011,at Toronto Blue Jays,W
+67,6/17/2011,at Washington Nationals,L
+68,6/18/2011,at Washington Nationals,L
+69,6/19/2011,at Washington Nationals,W
+70,6/20/2011,at Pittsburgh Pirates,W
+71,6/21/2011,at Pittsburgh Pirates,L
+72,6/22/2011,at Pittsburgh Pirates,L
+73,6/24/2011,vs Cincinnati Reds,W
+74,6/25/2011,vs Cincinnati Reds,L
+75,6/26/2011,vs Cincinnati Reds,W
+76,6/28/2011,vs St. Louis Cardinals,L
+77,6/29/2011,vs St. Louis Cardinals,L
+78,6/30/2011,vs St. Louis Cardinals,L
+79,7/1/2011,at Atlanta Braves,L
+80,7/2/2011,at Atlanta Braves,L
+81,7/3/2011,at Atlanta Braves,W
+82,7/4/2011,at Texas Rangers,L
+83,7/5/2011,at Texas Rangers,L
+84,7/6/2011,at Texas Rangers,L
+85,7/7/2011,at Boston Red Sox,L
+86,7/8/2011,at Boston Red Sox,L
+87,7/9/2011,at Boston Red Sox,L
+88,7/10/2011,at Boston Red Sox,L
+89,7/14/2011,vs Cleveland Indians,L
+90,7/15/2011,vs Cleveland Indians,L
+91,7/16/2011,vs Cleveland Indians,W
+92,7/17/2011,vs Cleveland Indians,W
+93,7/18/2011,vs Boston Red Sox,L
+94,7/19/2011,vs Boston Red Sox,W
+95,7/20/2011,vs Boston Red Sox,L
+96,7/22/2011,vs Los Angeles Angels,L
+97,7/23/2011,vs Los Angeles Angels,W
+98,7/24/2011,vs Los Angeles Angels,L
+99,7/26/2011,at Toronto Blue Jays,W
+100,7/27/2011,at Toronto Blue Jays,L
+101,7/28/2011,at Toronto Blue Jays,L
+102,7/29/2011,at New York Yankees,W
+103-I,7/30/2011,at New York Yankees,L
+104-II,7/30/2011,at New York Yankees,L
+105,7/31/2011,at New York Yankees,L
+106,8/2/2011,at Kansas City Royals,W
+107,8/3/2011,at Kansas City Royals,L
+108,8/4/2011,at Kansas City Royals,L
+109,8/5/2011,vs Toronto Blue Jays,L
+110,8/6/2011,vs Toronto Blue Jays,W
+111,8/7/2011,vs Toronto Blue Jays,L
+112,8/8/2011,vs Chicago White Sox,L
+113,8/9/2011,vs Chicago White Sox,L
+114,8/10/2011,vs Chicago White Sox,W
+115,8/11/2011,vs Chicago White Sox,L
+116,8/12/2011,vs Detroit Tigers,L
+117,8/13/2011,vs Detroit Tigers,L
+118,8/14/2011,vs Detroit Tigers,W
+119,8/15/2011,at Oakland Athletics,W
+120,8/16/2011,at Oakland Athletics,L
+121,8/17/2011,at Oakland Athletics,L
+122,8/19/2011,at Los Angeles Angels,L
+123,8/20/2011,at Los Angeles Angels,L
+124,8/21/2011,at Los Angeles Angels,L
+125,8/22/2011,at Minnesota Twins,W
+126,8/23/2011,at Minnesota Twins,W
+127,8/24/2011,at Minnesota Twins,W
+128,8/25/2011,at Minnesota Twins,W
+129,8/26/2011,vs New York Yankees,W
+130-I,8/28/2011,vs New York Yankees,W
+131-II,8/28/2011,vs New York Yankees,L
+132,8/29/2011,vs New York Yankees,L
+133,8/30/2011,vs Toronto Blue Jays,W
+134,8/31/2011,vs Toronto Blue Jays,L
+135,9/1/2011,vs Toronto Blue Jays,L
+136,9/2/2011,at Tampa Bay Rays,W
+137,9/3/2011,at Tampa Bay Rays,L
+138,9/4/2011,at Tampa Bay Rays,L
+139,9/5/2011,at New York Yankees,L
+140,9/6/2011,at New York Yankees,L
+141,9/7/2011,at New York Yankees,W
+142,9/8/2011,vs New York Yankees,W
+143,9/9/2011,at Toronto Blue Jays,W
+144,9/10/2011,at Toronto Blue Jays,L
+145,9/11/2011,at Toronto Blue Jays,L
+146,9/12/2011,vs Tampa Bay Rays,L
+147,9/13/2011,vs Tampa Bay Rays,W
+148,9/14/2011,vs Tampa Bay Rays,W
+149,9/16/2011,vs Los Angeles Angels,W
+150,9/17/2011,vs Los Angeles Angels,W
+151,9/18/2011,vs Los Angeles Angels,L
+152-I,9/19/2011,at Boston Red Sox,W
+153-II,9/19/2011,at Boston Red Sox,L
+154,9/20/2011,at Boston Red Sox,W
+155,9/21/2011,at Boston Red Sox,W
+156,9/22/2011,at Detroit Tigers,W
+157,9/23/2011,at Detroit Tigers,L
+158,9/24/2011,at Detroit Tigers,W
+159,9/25/2011,at Detroit Tigers,L
+160,9/26/2011,vs Boston Red Sox,W
+161,9/27/2011,vs Boston Red Sox,L
+162,9/28/2011,vs Boston Red Sox,W

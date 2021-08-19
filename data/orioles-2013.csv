@@ -1,0 +1,163 @@
+gameno,gamedate,opponent,outcome
+1,4/2/2013,at Tampa Bay Rays,W
+2,4/3/2013,at Tampa Bay Rays,L
+3,4/4/2013,at Tampa Bay Rays,W
+4,4/5/2013,vs Minnesota Twins,W
+5,4/6/2013,vs Minnesota Twins,L
+6,4/7/2013,vs Minnesota Twins,L
+7,4/8/2013,at Boston Red Sox,L
+8,4/10/2013,at Boston Red Sox,W
+9,4/11/2013,at Boston Red Sox,W
+10,4/12/2013,at New York Yankees,L
+11,4/13/2013,at New York Yankees,W
+12,4/14/2013,at New York Yankees,L
+13,4/16/2013,vs Tampa Bay Rays,W
+14,4/17/2013,vs Tampa Bay Rays,L
+15,4/18/2013,vs Tampa Bay Rays,W
+16-I,4/20/2013,vs Los Angeles Dodgers,W
+17-II,4/20/2013,vs Los Angeles Dodgers,W
+18,4/21/2013,vs Los Angeles Dodgers,L
+19,4/22/2013,vs Toronto Blue Jays,W
+20,4/23/2013,vs Toronto Blue Jays,W
+21,4/24/2013,vs Toronto Blue Jays,L
+22,4/25/2013,at Oakland Athletics,W
+23,4/26/2013,at Oakland Athletics,W
+24,4/27/2013,at Oakland Athletics,W
+25,4/28/2013,at Oakland Athletics,L
+26,4/29/2013,at Seattle Mariners,L
+27,4/30/2013,at Seattle Mariners,W
+28,5/1/2013,at Seattle Mariners,L
+29,5/2/2013,at Los Angeles Angels,W
+30,5/3/2013,at Los Angeles Angels,L
+31,5/4/2013,at Los Angeles Angels,W
+32,5/5/2013,at Los Angeles Angels,W
+33,5/7/2013,vs Kansas City Royals,W
+34,5/8/2013,vs Kansas City Royals,W
+35,5/9/2013,vs Kansas City Royals,L
+36,5/10/2013,at Minnesota Twins,W
+37,5/11/2013,at Minnesota Twins,L
+38,5/12/2013,at Minnesota Twins,W
+39,5/14/2013,vs San Diego Padres,L
+40,5/15/2013,vs San Diego Padres,L
+41,5/17/2013,vs Tampa Bay Rays,L
+42,5/18/2013,vs Tampa Bay Rays,L
+43,5/19/2013,vs Tampa Bay Rays,L
+44,5/20/2013,vs New York Yankees,L
+45,5/21/2013,vs New York Yankees,W
+46,5/22/2013,vs New York Yankees,W
+47,5/23/2013,at Toronto Blue Jays,L
+48,5/24/2013,at Toronto Blue Jays,W
+49,5/25/2013,at Toronto Blue Jays,W
+50,5/26/2013,at Toronto Blue Jays,L
+51,5/27/2013,at Washington Nationals,W
+52,5/28/2013,at Washington Nationals,L
+53,5/29/2013,vs Washington Nationals,W
+54,5/30/2013,vs Washington Nationals,W
+55,5/31/2013,vs Detroit Tigers,W
+56,6/1/2013,vs Detroit Tigers,L
+57,6/2/2013,vs Detroit Tigers,W
+58,6/4/2013,at Houston Astros,W
+59,6/5/2013,at Houston Astros,L
+60,6/6/2013,at Houston Astros,W
+61,6/7/2013,at Tampa Bay Rays,L
+62,6/8/2013,at Tampa Bay Rays,L
+63,6/9/2013,at Tampa Bay Rays,W
+64,6/10/2013,vs Los Angeles Angels,W
+65,6/11/2013,vs Los Angeles Angels,W
+66,6/12/2013,vs Los Angeles Angels,L
+67,6/13/2013,vs Boston Red Sox,W
+68,6/14/2013,vs Boston Red Sox,W
+69,6/15/2013,vs Boston Red Sox,L
+70,6/16/2013,vs Boston Red Sox,W
+71,6/17/2013,at Detroit Tigers,L
+72,6/18/2013,at Detroit Tigers,W
+73,6/19/2013,at Detroit Tigers,W
+74,6/21/2013,at Toronto Blue Jays,L
+75,6/22/2013,at Toronto Blue Jays,L
+76,6/23/2013,at Toronto Blue Jays,L
+77,6/24/2013,vs Cleveland Indians,L
+78,6/25/2013,vs Cleveland Indians,W
+79,6/26/2013,vs Cleveland Indians,L
+80,6/27/2013,vs Cleveland Indians,W
+81,6/28/2013,vs New York Yankees,W
+82,6/29/2013,vs New York Yankees,W
+83,6/30/2013,vs New York Yankees,W
+84,7/2/2013,at Chicago White Sox,L
+85,7/3/2013,at Chicago White Sox,W
+86,7/4/2013,at Chicago White Sox,L
+87,7/5/2013,at New York Yankees,L
+88,7/6/2013,at New York Yankees,L
+89,7/7/2013,at New York Yankees,W
+90,7/8/2013,vs Texas Rangers,L
+91,7/9/2013,vs Texas Rangers,L
+92,7/10/2013,vs Texas Rangers,W
+93,7/11/2013,vs Texas Rangers,W
+94,7/12/2013,vs Toronto Blue Jays,W
+95,7/13/2013,vs Toronto Blue Jays,L
+96,7/14/2013,vs Toronto Blue Jays,W
+97,7/19/2013,at Texas Rangers,W
+98,7/20/2013,at Texas Rangers,W
+99,7/21/2013,at Texas Rangers,W
+100,7/22/2013,at Kansas City Royals,W
+101,7/23/2013,at Kansas City Royals,L
+102,7/24/2013,at Kansas City Royals,L
+103,7/25/2013,at Kansas City Royals,L
+104,7/26/2013,vs Boston Red Sox,W
+105,7/27/2013,vs Boston Red Sox,L
+106,7/28/2013,vs Boston Red Sox,L
+107,7/30/2013,vs Houston Astros,W
+108,7/31/2013,vs Houston Astros,L
+109,8/1/2013,vs Houston Astros,W
+110,8/2/2013,vs Seattle Mariners,W
+111,8/3/2013,vs Seattle Mariners,L
+112,8/4/2013,vs Seattle Mariners,L
+113,8/6/2013,at San Diego Padres,W
+114,8/7/2013,at San Diego Padres,W
+115,8/9/2013,at San Francisco Giants,W
+116,8/10/2013,at San Francisco Giants,L
+117,8/11/2013,at San Francisco Giants,W
+118,8/12/2013,at Arizona Diamondbacks,L
+119,8/13/2013,at Arizona Diamondbacks,L
+120,8/14/2013,at Arizona Diamondbacks,L
+121,8/16/2013,vs Colorado Rockies,L
+122,8/17/2013,vs Colorado Rockies,W
+123,8/18/2013,vs Colorado Rockies,W
+124,8/19/2013,vs Tampa Bay Rays,L
+125,8/20/2013,vs Tampa Bay Rays,L
+126,8/21/2013,vs Tampa Bay Rays,W
+127,8/23/2013,vs Oakland Athletics,W
+128,8/24/2013,vs Oakland Athletics,L
+129,8/25/2013,vs Oakland Athletics,W
+130,8/27/2013,at Boston Red Sox,L
+131,8/28/2013,at Boston Red Sox,L
+132,8/29/2013,at Boston Red Sox,W
+133,8/30/2013,at New York Yankees,L
+134,8/31/2013,at New York Yankees,L
+135,9/1/2013,at New York Yankees,W
+136,9/2/2013,at Cleveland Indians,W
+137,9/3/2013,at Cleveland Indians,L
+138,9/4/2013,at Cleveland Indians,L
+139,9/5/2013,vs Chicago White Sox,W
+140,9/6/2013,vs Chicago White Sox,W
+141,9/7/2013,vs Chicago White Sox,W
+142,9/8/2013,vs Chicago White Sox,L
+143,9/9/2013,vs New York Yankees,W
+144,9/10/2013,vs New York Yankees,L
+145,9/11/2013,vs New York Yankees,L
+146,9/12/2013,vs New York Yankees,L
+147,9/13/2013,at Toronto Blue Jays,W
+148,9/14/2013,at Toronto Blue Jays,L
+149,9/15/2013,at Toronto Blue Jays,W
+150,9/17/2013,at Boston Red Sox,W
+151,9/18/2013,at Boston Red Sox,W
+152,9/19/2013,at Boston Red Sox,L
+153,9/20/2013,at Tampa Bay Rays,L
+154,9/21/2013,at Tampa Bay Rays,L
+155,9/22/2013,at Tampa Bay Rays,L
+156,9/23/2013,at Tampa Bay Rays,L
+157,9/24/2013,vs Toronto Blue Jays,L
+158,9/25/2013,vs Toronto Blue Jays,W
+159,9/26/2013,vs Toronto Blue Jays,W
+160,9/27/2013,vs Boston Red Sox,L
+161,9/28/2013,vs Boston Red Sox,W
+162,9/29/2013,vs Boston Red Sox,W
