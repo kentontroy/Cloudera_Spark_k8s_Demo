@@ -1,4 +1,6 @@
+### Install and configure Anaconda
 
+```
 [centos@cdp ~]$ wget https://repo.anaconda.com/archive/Anaconda3.2020.02-Linux-x86_64.sh
 [centos@cdp ~]$ chmod +x ./Anaconda3-5.3.1-Linux-x86_64.sh
 
@@ -29,7 +31,11 @@ Python 3.7.0
 
 [centos@cdp ~]$ which pip3
 ~/anaconda3/envs/streamlit/bin/pip3
+```
 
+### Install Python package dependencies
+
+```
 [centos@cdp ~]$ conda create --name streamlit python=3.7
 [centos@cdp ~]$ conda activate streamlit
 (streamlit) [centos@cdp ~]$ pip3 install streamlit
@@ -43,11 +49,14 @@ See https://docs.cloudera.com/runtime/7.2.7/impala-start-stop/topics/impala-impy
 if additional dependencies are needed. For this repo, only do
 
 (streamlit) [centos@cdp src]$ pip3 install impyla[kerberos]
+```
 
 (streamlit) [centos@cdp src]$ kinit -kt /etc/security/keytabs/etl_user.keytab etl_user/$(hostname -f)@CLOUDERA.COM
 
-For testing connectivity to Impala with Kerberos enabled, consider
-creating a file, ImpalaTest.py, with contents similar to:
+### Test connectivity to Impala
+
+```
+Create a file, ImpalaTest.py, with contents similar to:
 ------------------------------------------------------------------
 from impala.dbapi import connect
 from impala.util import as_pandas
@@ -66,12 +75,9 @@ cursor = conn.cursor()
 cursor.execute("SELECT * FROM {0} LIMIT 100".format(KUDU_TABLE))
 df = as_pandas(cursor)
 print(df)
-------------------------------------------------------------------
 
 (streamlit) [centos@cdp src]$ python3 ImpalaTest.py
-
-Test streamlt, open the browser to port 8501
-(streamlit) [centos@cdp src]$ streamlit hello
+```
 
 
 
