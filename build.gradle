@@ -1,0 +1,23 @@
+
+plugins {
+  id 'scala'
+  id 'application'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.scala-lang:scala-library:2.11'
+  implementation 'org.scala-lang:scala-library:2.11'
+// Spark SQL subsumes Spark Core
+  implementation 'org.apache.spark:spark-sql_2.11:2.4.7'
+// Kudu dependencies
+  implementation group: 'org.apache.kudu', name: 'kudu-spark2_2.11', version: '1.13.0'
+}
+
+application {
+  mainClassName = 'demo.AppETLCrimeData'
+}
+
