@@ -22,7 +22,7 @@ Offload older data to archival storage such as HDFS/Ozone or in the Cloud on S3 
 Tables use partitions spread across Tablets. Each Tablet has leader and follower nodes with replication <br>
 to ensure resiliency. Storing data in a columnar fashion enables sequential layout, vectorization, and efficient compression. <br>
 
-### DDLfor Kudu table <br>
+### DDL for Kudu table <br>
 
 ```
 CREATE TABLE bpd_crime_data 
