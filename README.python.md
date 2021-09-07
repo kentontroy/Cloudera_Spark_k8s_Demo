@@ -74,9 +74,9 @@ cursor = conn.cursor()
 cursor.execute("SELECT * FROM {0} LIMIT 100".format(KUDU_TABLE))
 df = as_pandas(cursor)
 print(df)
-```
 
 (streamlit) [centos@cdp src]$ python3 ImpalaTest.py
+
 ```
 ### Run Streamlit app
 ```
