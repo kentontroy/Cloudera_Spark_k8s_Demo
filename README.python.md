@@ -50,12 +50,11 @@ if additional dependencies are needed. For this repo, only do
 
 (streamlit) [centos@cdp src]$ pip3 install impyla[kerberos]
 ```
-
-(streamlit) [centos@cdp src]$ kinit -kt /etc/security/keytabs/etl_user.keytab etl_user/$(hostname -f)@CLOUDERA.COM
-
 ### Test connectivity to Impala
 
 ```
+(streamlit) [centos@cdp src]$ kinit -kt /etc/security/keytabs/etl_user.keytab etl_user/$(hostname -f)@CLOUDERA.COM
+
 Create a file, ImpalaTest.py, with contents similar to:
 ------------------------------------------------------------------
 from impala.dbapi import connect
@@ -75,10 +74,14 @@ cursor = conn.cursor()
 cursor.execute("SELECT * FROM {0} LIMIT 100".format(KUDU_TABLE))
 df = as_pandas(cursor)
 print(df)
+```
 
 (streamlit) [centos@cdp src]$ python3 ImpalaTest.py
 ```
-
+### Run Streamlit app
+```
+(streamlit) [centos@cdp src]$ streamlist run AppStreamlitGui.py
+```
 
 
 
