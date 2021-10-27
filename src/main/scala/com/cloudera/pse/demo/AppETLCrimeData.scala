@@ -1,4 +1,4 @@
-package demo
+package com.cloudera.pse.demo
 
 import collection.JavaConverters._
 import java.util.UUID.randomUUID
