@@ -37,7 +37,7 @@ def year(v: str):
 
 def main():
   spark = SparkSession(createContext(1, 2))
-  df = spark.read.option("header", "true").option("delimiter", "\t").csv("s3a://statisticalfx/Data/Public Safety/BPD_Part_1_Victim_Based_Crime_Data_tab.txt")
+  df = spark.read.option("header", "true").option("delimiter", "\t").csv("s3a://se-uat2/kdavis-demo/BPD_Part_1_Victim_Based_Crime_Data_tab.txt")
   df.createOrReplaceTempView("RAW_DATA")
 
   uuidUDF = udf(lambda v: uuid(v))
@@ -48,8 +48,8 @@ def main():
 
   lonUDF = udf(lambda v: longitude(v))
   spark.udf.register("lonUDF", longitude, DoubleType())
-  
-    yearUDF = udf(lambda v: year(v))
+
+  yearUDF = udf(lambda v: year(v))
   spark.udf.register("yearUDF", year, IntegerType())
 
   sql = """
@@ -58,12 +58,12 @@ def main():
               location AS address, description, insideflag, weapon, post, district, neighborhood, total
        FROM RAW_DATA
   """
-
   finalDf = spark.sql(sql)
   finalDf.printSchema()
   finalDf.show(10)
 
+  finalDf.write.option("header", "true").option("delimiter", "\t").csv("s3a://se-uat2/kdavis-demo/BPD_Part_1_Victim_Based_Crime_Data_post_etl.txt")
+
+
 if __name__ == "__main__":
   main()
-  
-  
