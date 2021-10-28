@@ -1,3 +1,4 @@
+### Traditional method
 ```
 spark-submit \
   --master yarn \
@@ -11,12 +12,14 @@ spark-submit \
   --class com.cloudera.pse.demo.primes.CalculatePrimes \
   SkillUp_Calculate_Primes.jar 10000
 ```
+### CDE CLI
 ```
 ./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
   spark submit SkillUp_Calculate_Primes.jar \
   --class com.cloudera.pse.demo.primes.CalculatePrimes \
   SkillUp_Calculate_Primes.jar 10000
 ````
+### CDE Job
 ````
 ./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 resource create --name demo-resource
 
