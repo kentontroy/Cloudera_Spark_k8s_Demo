@@ -38,3 +38,12 @@ spark-submit \
   --arg 10000
 {
 ```
+```
+curl 
+-H "Authorization: Bearer ${CDE_TOKEN}" 
+-X POST "${CDE_JOB_URL}/jobs" 
+-H "accept: application/json" 
+-H "Content
+-Type: application/json" 
+-d "{ \"name\": \"<SPECIFY JOB DETAILS>\"
+```
