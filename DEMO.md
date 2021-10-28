@@ -1,6 +1,7 @@
 ### ETL Pipeline
 <img src="./images/demo-etl-path.png" alt=""/><br>
 
+### Issue jobs at the command line on any client host, via a REST API, or easily within the CDE UI
 ```
 ./cde job create \
   --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
@@ -9,7 +10,9 @@
   --python-env-resource-name demo-resource-python \
   --name demo-job-python \
   --mount-1-resource demo-resource-py
-  
+```
+### The jobs can be scheduled and orchestrated with Apache Airflow
+```
 /cde job update \
   --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
   --name demo-job-python \
