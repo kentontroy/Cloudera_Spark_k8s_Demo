@@ -2,4 +2,4 @@
 
 ### Virtual clusters provide isolation and multi-tenancy
 
-### Propagate dependencies transparently for each one of your jobs
+### Dependencies are propagated transparently across the cluster for each one of your jobs
