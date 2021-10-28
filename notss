@@ -1,0 +1,297 @@
+
+######################################################################################
+# Documentation
+# https://docs.cloudera.com/data-engineering/cloud/manage-jobs/topics/cde-create-job.html
+######################################################################################
+
+######################################################################################
+# Issue Spark jobs to Data Hub
+# Endpoints
+# https://docs.cloudera.com/runtime/7.2.1/running-spark-applications/topics/spark-livy-api-reference-batch-jobs.html
+######################################################################################
+
+curl https://kdavis-pse-demo-gateway.se-sandb.a465-9q4k.cloudera.site/kdavis-pse-demo/cdp-proxy-api/livy/batches
+
+ssh kdavis@kdavis-pse-demo-master0.se-sandb.a465-9q4k.cloudera.site
+klist
+which spark-submit
+https://kdavis-pse-demo-gateway.se-sandb.a465-9q4k.cloudera.site/kdavis-pse-demo/cdp-proxy-api/livy/
+
+
+######################################################################################
+# Create a CDE Service:
+######################################################################################
+
+General workload -> m5
+Memory optimized -> r5
+Compute optimized -> c5
+
+Can set Auto Scale range
+
+Can use Spot Instances
+
+Create a CDE Endpoint (exposed publicly or not)
+Secure the endpont: In the AWS Console:  EC2 -> Load Balancer -> Security Group -> Inbound rules
+What if the CDE Endpoint is private --
+Browser connection -> SOCKS Proxy (jump host) -> SSH Tunnel -> CDE Endpoint
+You can configure TLS between clients (e.g. the CDE cli) and the endpoint
+
+Enable Workload Analytics
+
+StartTLS example:
+
+During SMTP communication, if the communication takes place on port 587, the connection is secure which is ideal. 
+If the connection is made on port 25 then it will be insecure. However, by using STARTTLS sent commands will upgrade 
+it to a secure connection.
+
+
+CDE Service -> long running k8s cluster, e.g. a Node Pool with a Kube API server endpoint
+
+Virtual Cluster | Cluster Details -> spin up and down on demand, auto-scaling with pre-defined compute ranges
+
+Developers can run jobs against the virtual cluster w/o having to worry about infrastructure
+
+
+By default, the driver runs on on-demand instances, and the executors run on spot instances. 
+For SLA-bound workloads, select On-demand. 
+For non-SLA workloads, leave the default configuration to save costs. 
+
+You cannot use Spark 2 and Spark 3 in the same virtual cluster, but you can have separate Spark 2 and Spark 3 virtual 
+clusters within the same CDE service.
+
+Enable Airflow Authoring UI (Technical Preview).
+This option enables a graphical workflow editor where you can create multi-step Airflow pipelines by drag-and-dropping 
+a combination of out-of-the-box operators on a canvas and creating relationships between them with a mouse click.
+
+
+######################################################################################
+# CDE Service | Service Details | Resource Scheduler 
+# Can see actual k8s resources
+######################################################################################
+https://yunikorn.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/#/dashboard
+Can see a dashboard
+Can see the Node Pool
+
+CDE Service | Download Kube Config
+
+
+######################################################################################
+# Virtual Cluster | Cluster Details | CLI Tool -> downloads a CDE binary script
+######################################################################################
+
+The CDE jobs API implicitly adds the default DataLake filesystem to the Spark configuration to save the user having to 
+do that. If you need to reference other buckets, you can set the spark.yarn.access.hadoopFileSystems parameter with the 
+extra comma-separated buckets needed. If you set this parameter in your application code before creating the session, 
+it might override the default setting, leading to errors.
+
+######################################################################################
+# Virtual Cluster | Cluster Details | Jobs API URL 
+######################################################################################
+
+https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1
+
+Command line utility checks multiple sources (e.g. below) for authentication credentials:
+
+$HOME/.cdp/credentials (from cdp configure)
+$HOME/.cde/config.yaml
+
+There you can specify authn tokens that you create within the CDP Management Console.
+You can also use a Workload Password specified in the Console
+
+./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 job list
+
+cp $HOME/IdeaProjects/UnravelTesting/out/artifacts/UnravelTesting_jar/UnravelTesting.jar SkillUp_Calculate_Primes.jar
+
+spark-submit \
+  --master yarn \
+  --deploy-mode cluster \
+  --conf "spark.workflow.name=CalculatePrimes" \
+  --driver-memory 10g \
+  --executor-memory 2g \
+  --executor-cores 5  \
+  --num-executors 15 \
+  --jars /tmp/UnravelTesting.jar \
+  --class com.cloudera.pse.demo.primes.CalculatePrimes \
+  SkillUp_Calculate_Primes.jar 10000
+
+######################################################################################
+# Create a CDE job for calculating primes
+######################################################################################
+
+./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  spark submit SkillUp_Calculate_Primes.jar \
+  --class com.cloudera.pse.demo.primes.CalculatePrimes \
+  SkillUp_Calculate_Primes.jar 10000
+
+./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 resource create --name demo-resource
+
+./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 resource upload --name demo-resource --local-path SkillUp_Calculate_Primes.jar
+
+./cde job create \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --name demo-resource-primes \
+  --type spark \
+  --mount-1-resource demo-resource \
+  --application-file SkillUp_Calculate_Primes.jar 
+
+./cde job run \ 
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --name demo-resource-primes \
+  --arg 10000
+{
+  "id": 2
+}
+
+In order to have your job access S3 storage as if it were HDFS, include the below as part of the cde job run command
+--conf "spark.yarn.access.hadoopFileSystems=s3a://bucket1,s3a://bucket2"
+
+./cde run \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  describe --id 2 | jq -r '.status'
+succeeded
+
+Show Spark History UI
+-- Show DAG Visualization
+-- Show Environment to see details (e.g. spark.kubernetes.driver.pod.name, classpath, 
+spark.jars                              local:///opt/spark/optional-lib/hive-warehouse-connector-assembly.jar,local:///app/mount/SkillUp_Calculate_Primes.jar
+spark.app.name	                        Spark Unravel Testing (Prime Numbers)
+spark.kubernetes.container.image        container.repository.cloudera.com/cloudera/dex/dex-spark-runtime-2.4.7:1.12.0-b119
+spark.master	                        k8s://https://kubernetes.default.svc.cluster.local:443
+spark.kubernetes.executor.podNamePrefix	spark-unravel-testing-prime-numbers-d713257cbdcd0bc3
+
+
+./cde run \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  describe --id 2
+{
+  "id": 2,
+  "job": "demo-resource-primes",
+  "type": "spark",
+  "status": "succeeded",
+  "user": "kdavis",
+  "started": "2021-10-26T18:11:28Z",
+  "ended": "2021-10-26T18:12:21Z",
+  "mounts": [
+    {
+      "dirPrefix": "/",
+      "resourceName": "demo-resource"
+    }
+  ],
+  "spark": {
+    "sparkAppID": "spark-dd01a1da9c0f4580aac9c0ba26449b82",
+    "sparkAppURL": "https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/hs/history/spark-dd01a1da9c0f4580aac9c0ba26449b82/jobs/",
+    "spec": {
+      "file": "SkillUp_Calculate_Primes.jar",
+      "args": [
+        "10000"
+      ]
+    }
+  },
+  "identity": {
+    "disableRoleProxy": true,
+    "role": "instance"
+  }
+}
+
+Virtual Cluster | Cluster Details | API Docs
+
+GET /job-runs/{id}/logs -> Specify Job id, Execute
+DOWNLOAD
+
+Extract the zip file and see driver_stdout
+
+
+./cde job update \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --name demo-resource-primes \
+  --schedule-enabled=true \
+  --schedule-start 2021-01-01T00:00:00Z \
+  --every-days 1 \
+  --for-minutes-of-hour 0 \
+  --for-hours-of-day 0
+
+curl 
+-H "Authorization: Bearer ${CDE_TOKEN}" 
+-X POST "${CDE_JOB_URL}/jobs" 
+-H "accept: application/json" 
+-H "Content
+-Type: application/json" 
+-d "{ \"name\": \"Create_Report\"
+
+
+
+######################################################################################
+# Create a CDE job for ETL
+######################################################################################
+
+./cde resource create \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --name demo-resource-python \
+  --type python-env \
+  --python-version python3
+
+./cde resource delete \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --name demo-resource-python 
+
+cat requirements.txt
+boto3
+impyla
+
+
+./cde resource upload \ 
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --name demo-resource-python \
+  --local-path /Users/kdavis/Documents/Demos/CDE/requirements.txt
+
+./cde resource list-events \ 
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --name demo-resource-python
+
+./cde resource list \ 
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 
+
+./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 resource create --name demo-resource-py
+
+./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 resource upload --name demo-resource-py --local-path AppETLCrimeData.py
+
+
+./cde job create \ 
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --type spark \
+  --application-file AppETLCrimeData.py \
+  --python-env-resource-name demo-resource-python \ 
+  --conf spark.kubernetes.driverEnv.AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+  --conf spark.kubernetes.driverEnv.AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
+  --conf spark.kubernetes.executorEnv.AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+  --conf spark.kubernetes.executorEnv.AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
+  --name demo-resource-python \
+  --mount-1-resource demo-resource-py 
+
+./cde job create \ 
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --type spark \
+  --application-file AppETLCrimeData.py \
+  --python-env-resource-name demo-resource-python \ 
+  --name demo-resource-python \
+  --mount-1-resource demo-resource-py 
+
+./cde job run \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --name demo-resource-python
+
+./cde run \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  describe --id 7 | jq -r '.status'
+
+
+./cde --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 resource upload --name demo-resource-py --local-path AppLoadHive.py
+
+./cde job create \
+  --vcluster-endpoint=https://72s24ncc.cde-n44bzzmp.se-sandb.a465-9q4k.cloudera.site/dex/api/v1 \
+  --type spark \
+  --application-file AppLoadHive.py \
+  --python-env-resource-name demo-resource-python \
+  --name demo-resource-python-post-etl \
+  --mount-1-resource demo-resource-py
+
