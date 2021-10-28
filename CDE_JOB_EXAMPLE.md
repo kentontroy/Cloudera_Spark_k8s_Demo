@@ -38,6 +38,7 @@ spark-submit \
   --arg 10000
 {
 ```
+### Use a REST API
 ```
 curl 
 -H "Authorization: Bearer ${CDE_TOKEN}" 
