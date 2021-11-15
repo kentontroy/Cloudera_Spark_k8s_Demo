@@ -107,7 +107,7 @@ viewState = pdk.ViewState(longitude=-76.5864, latitude=39.2935, zoom=11, min_zoo
 
 # https://docs.mapbox.com/api/maps/styles/
 apiKeys={}
-apiKeys["mapbox"]="pk.eyJ1Ijoia2VudG9udHJveSIsImEiOiJja3NnYnRzYTAxaXRzMm9udm5rcTVneXFpIn0.CBsFJ2v1T9BQsfnd0tXOhg:"
+apiKeys["mapbox"]="<USE YOUR OWN KEY>"
 deck = (pdk.Deck(initial_view_state=viewState, layers=[hexagons], 
                  api_keys=apiKeys,
                  map_provider="mapbox", 
